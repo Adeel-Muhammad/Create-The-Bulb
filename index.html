@@ -18,6 +18,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    background-color: black;
 }
 
 .sub{
@@ -35,13 +37,20 @@
 
 }
 
-.imgs{
-    width: 100%;
+#imgs{
+    width: 90%;
     height: 80%;
+    border-radius: 5%;
 }
 
 #btn{
     height: 10%;
+
+    padding: 0.5em;
+
+    background-color: grey;
+    color: white;
+    border-radius: 20%;
 
 }
 
@@ -50,10 +59,12 @@
 <body>
     
     <div class="main">
-        <div class="sub"><img src="" alt="" id="imgs"><button id="btn">Turn on</button></div>
-        <div  class="sub"><img src="" alt="" id="imgs"><button id="btn">Turn on</button></div>
-        <div  class="sub"><img src="" alt="" id="imgs"><button id="btn">Turn on</button></div>
+        <div class="sub"><img src="./Images/bulb1 off.avif" alt="" id="imgs"><button id="btn">Turn on</button></div>
+        <div  class="sub"><img src="./Images/bulb1 off.avif" alt="" id="imgs"><button id="btn">Turn on</button></div>
+        <div  class="sub"><img src="./Images/bulb1 off.avif" alt="" id="imgs"><button id="btn">Turn on</button></div>
 
     </div>
+
+    <script src="./bulb.js"></script>
 </body>
 </html>
