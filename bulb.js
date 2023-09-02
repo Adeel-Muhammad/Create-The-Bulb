@@ -11,7 +11,21 @@ btn1.addEventListener("click",chnageColor1);
 
 function chnageColor1(){
 
-    btn1.textContent="turn off"
+    if(btn1.textContent.includes("on")){
+
+        btn1.textContent="turn off";
+    img1.src="./Images/bulb1.on.jpg";
+
+    }
+
+    else{
+
+
+        btn1.textContent="turn on";
+    img1.src="./Images/bulb1 off.avif";
+    }
+
+    
     
 
 }
@@ -20,7 +34,8 @@ btn2.addEventListener("click",chnageColor2);
 
 function chnageColor2(){
 
-    btn2.textContent="turn off"
+    btn2.textContent="turn off";
+    img2.src="./Images/bulb blue.webp"
 
 }
 btn3.addEventListener("click",chnageColor3);
@@ -28,5 +43,6 @@ btn3.addEventListener("click",chnageColor3);
 function chnageColor3(){
 
     btn3.textContent="turn off"
+    img3.src="./Images/bulb2.onn.jpg";
 
 }
