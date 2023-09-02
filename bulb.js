@@ -14,7 +14,7 @@ function chnageColor1(){
     if(btn1.textContent.includes("on")){
 
         btn1.textContent="turn off";
-    img1.src="./Images/bulb1.on.jpg";
+    img1.src="./Images/60 watt orange bulb.webp";
 
     }
 
@@ -33,16 +33,40 @@ function chnageColor1(){
 btn2.addEventListener("click",chnageColor2);
 
 function chnageColor2(){
+    if(btn2.textContent.includes("on")){
 
-    btn2.textContent="turn off";
-    img2.src="./Images/bulb blue.webp"
+        btn2.textContent="turn off";
+    img2.src="./Images/60 watt green bulb.jpg"
+
+    }
+
+    else{
+
+
+        btn2.textContent="turn on";
+    img2.src="./Images/bulb1 off.avif";
+    }
+
+
 
 }
 btn3.addEventListener("click",chnageColor3);
 
 function chnageColor3(){
 
-    btn3.textContent="turn off"
-    img3.src="./Images/bulb2.onn.jpg";
+    if(btn3.textContent.includes("on")){
+
+        btn3.textContent="turn off"
+    img3.src="./Images/60 watt purple bulb.jpg";
+
+    }
+
+    else{
+
+
+        btn3.textContent="turn on";
+    img3.src="./Images/bulb1 off.avif";
+    }
+
 
 }
